@@ -9,6 +9,13 @@
 //   return nums;
 // };
 
+export const runningSum = (nums) => {
+  for (let i = 1; i < nums.length; i++) {
+    nums[i] += nums[i - 1];
+  }
+  return nums;
+};
+
 // export const runningSum = (nums) => {
 //   const result = [];
 
@@ -28,7 +35,11 @@
 //   }, []);
 // };
 
-export const runningSum = (nums) => {
-  nums.reduce((acc, n, i, arr) => (arr[i] += acc));
-  return nums;
-};
+// export const runningSum = (nums) => {
+//   nums.reduce((acc, n, i, arr) => (arr[i] += acc));
+//   return nums;
+// };
+
+// export const runningSum = (nums) => {
+//   return nums.map((acc = 0, num => acc += num));
+// };
