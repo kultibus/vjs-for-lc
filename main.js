@@ -5,3 +5,6 @@ import { runningSum } from "./problems/1480.js";
 import { firstPalindrome } from "./problems/2108.js";
 import { majorityElement } from "./problems/169.js";
 import { filter } from "./problems/2634.js";
+import { reduce } from "./problems/2626.js";
+
+
