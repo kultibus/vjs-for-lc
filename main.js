@@ -10,6 +10,6 @@ import { compose } from "./problems/2629.js";
 import { argumentsLength } from "./problems/2703.js";
 import { once } from "./problems/2666.js";
 import { memoize } from "./problems/2623.js";
-
+import { addTwoPromises } from "./problems/2723.js";
 
 
