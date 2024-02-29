@@ -9,3 +9,7 @@ import { reduce } from "./problems/2626.js";
 import { compose } from "./problems/2629.js";
 import { argumentsLength } from "./problems/2703.js";
 import { once } from "./problems/2666.js";
+import { memoize } from "./problems/2623.js";
+
+
+
