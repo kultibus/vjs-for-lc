@@ -11,5 +11,5 @@ import { argumentsLength } from "./problems/2703.js";
 import { once } from "./problems/2666.js";
 import { memoize } from "./problems/2623.js";
 import { addTwoPromises } from "./problems/2723.js";
-
+import { sleep } from "./problems/2621.js";
 
