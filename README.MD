@@ -1,0 +1,1 @@
+## Practice of solving LeetCode problems using vanilla JS
